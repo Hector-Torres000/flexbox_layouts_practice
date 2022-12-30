@@ -1,0 +1,94 @@
+html {
+  box-sizing: border-box;
+}
+
+/*body*/
+body {
+  margin: 0;
+}
+
+/*-----header-----*/
+header {
+  background-color: black;
+  padding: 20px;
+}
+/*nav bar*/
+nav {
+  display: flex;
+  justify-content: space-around;
+  align-items: baseline;
+  color: white;
+}
+
+nav * {
+  flex: 1;
+}
+
+nav ul {
+  display: flex;
+  list-style-type: none;
+  width: 100%;
+  margin-right: 20px;
+}
+
+nav ul li {
+  margin: auto 10px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: white;
+}
+/*-----main-----*/
+main {
+  height: 400px;
+}
+main > h1 {
+  display: inline-block;
+  margin-left: 10px;
+}
+h1 + span {
+  display: inline-block;
+  margin-left: 90%;
+}
+/*mainContent*/
+.mainContent {
+  display: flex;
+  justify-content: center;
+}
+.bigContent {
+  width: 50%;
+  height: 250px;
+  margin-left: 10px;
+  background-image: url("../images/pattern.png");
+  color: white;
+}
+.smallContent {
+  width: 50%;
+
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.smallContent article {
+  flex: 1 40%;
+  margin-left: 10px;
+  background-image: url("../images/pattern.png");
+  color: white;
+}
+.smallContent article:nth-of-type(even) {
+  margin-right: 10px;
+}
+.smallContent article:nth-child(n + 3) {
+  margin-top: 10px;
+}
+/*-----footer-----*/
+footer section {
+  display: flex;
+  justify-content: space-around;
+}
+footer section img {
+  height: 200px;
+  width: 100%;
+  object-fit: cover;
+}
