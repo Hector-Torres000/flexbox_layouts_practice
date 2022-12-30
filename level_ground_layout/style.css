@@ -1,0 +1,74 @@
+body {
+  margin: 0;
+}
+/*-----header-----*/
+header {
+  height: 500px;
+  background-color: rgb(71, 71, 120);
+  color: white;
+}
+/*nav*/
+nav {
+  display: flex;
+  justify-content: space-evenly;
+  padding: 20px;
+}
+nav * {
+  display: block;
+  text-align: center;
+  flex: 1 20%;
+}
+
+nav img {
+  flex: 1 30%;
+}
+
+nav div {
+  display: flex;
+  justify-content: center;
+}
+/*div*/
+header div:last-child {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 100%;
+}
+.divHeader {
+  display: inline-block;
+  margin: 0 auto;
+}
+
+.divHeader h1 {
+  margin-top: 150px;
+}
+/*-----main-----*/
+/*section 1*/
+.section1 {
+  display: flex;
+  height: 300px;
+  flex-direction: column;
+  align-items: center;
+}
+.section1 h2 {
+  margin-top: 100px;
+}
+/*section 2*/
+.section2 {
+  display: flex;
+  justify-content: center;
+  background-color: gray;
+  height: 300px;
+}
+
+.section2 div {
+  text-align: center;
+  margin-top: 50px;
+}
+/*section 3*/
+.section3 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 300px;
+}
