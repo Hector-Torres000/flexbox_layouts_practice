@@ -1,0 +1,30 @@
+body {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+/*-----header-----*/
+header {
+  height: 100%;
+}
+/*nav bar*/
+nav ul {
+  height: 400px;
+  line-height: 2;
+  list-style: none;
+  padding-left: 10px;
+}
+/*-----footer-----*/
+footer {
+  margin-left: 15%;
+}
+footer section {
+  display: flex;
+  justify-content: space-around;
+}
+footer section div {
+  flex-basis: 20%;
+}
+footer section p {
+  flex-basis: 35%;
+}
