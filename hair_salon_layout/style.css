@@ -1,0 +1,134 @@
+body {
+  margin: 0;
+}
+/*-----header-----*/
+/*nav*/
+nav,
+nav * {
+  border: solid 2px black;
+}
+
+nav {
+  height: 50px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+nav ul {
+  display: flex;
+  width: 45%;
+}
+nav ul li {
+  width: 100%;
+  list-style-type: none;
+}
+/*-----main-----*/
+/*section1*/
+.section1,
+.section1 * {
+  border: solid 2px black;
+}
+.section1 {
+  width: 45%;
+  margin-left: 15%;
+}
+/*section1*/
+.section1 div {
+  width: 20%;
+  margin-top: 15%;
+  background-color: black;
+  color: white;
+}
+.section1 div a {
+  background-color: white;
+  color: black;
+}
+/*section1half*/
+.section1half,
+.section1half * {
+  border: solid 2px black;
+}
+.section1half {
+  height: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.section1half div {
+  width: 25%;
+  margin: auto 20px;
+  text-align: center;
+}
+/*section2*/
+.section2,
+.section2 * {
+  border: solid 2px black;
+}
+.section2 {
+  display: flex;
+  justify-content: center;
+}
+.section2 div {
+  width: 35%;
+}
+.section2 div:nth-child(2) {
+  margin-left: 45px;
+}
+.section2 div:nth-child(1) {
+  margin-right: 45px;
+}
+/*section3*/
+.section3,
+.section3 * {
+  border: 2px solid black;
+}
+.section3 {
+  height: 300px;
+  display: flex;
+  justify-content: center;
+}
+.section3 div {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  margin: auto 50px;
+  height: 100%;
+  width: 20%;
+}
+/*section4*/
+.section4,
+.section4 * {
+  border: solid 2px black;
+}
+.section4 div {
+  width: 75%;
+  margin: auto auto;
+}
+/*section5*/
+.section5,
+.section5 * {
+  border: solid 2px black;
+}
+.section5 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.section5 div {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-content: flex-start;
+}
+
+.section5 div img {
+  width: 20%;
+  height: 300px;
+  margin: 10px 50px;
+}
+.section5 div img:nth-child(2) {
+  height: 450px;
+}
+.section5 div img:nth-child(5) {
+  height: 250px;
+}
